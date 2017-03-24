@@ -2,20 +2,23 @@
 <html>
 <head>
 	<title>Welcome to Greg's List</title>
-
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<nav>
+	<header>
 		<div class="navWrapper">
-			<p>Greg's List</p>
-			<ul>
-				<li><a href="http://www.google.com" title="Post">Post</a></li>
-				<li><a href="http://www.yahoo.com" title="Account">Account</a></li>
-			</ul>
+			<a href="#!" class="logo">Greg's List</a>
+			<nav>
+				<ul>
+					<li><a href="http://www.google.com" title="Post">Post</a></li>
+					<li><a href="http://www.yahoo.com" title="Account">Account</a></li>
+				</ul>
+			</nav>
 		</div><!-- end .navWrapper -->
-	</nav>
+	</header>
 	<main>
 		<section class="searchForm">
 			<div class="contentWrapper">
@@ -32,9 +35,9 @@
 					<a href="#!" title="< prev" class="prev">< prev</a><span class="pageNumbers">1 to 100 of 179</span><a href="#!" title="next >" class="next">next ></a>
 				</div><!-- end .pagination -->
 				<ul class="results">
-					<li><span class="date">June 22</span><span class="jobTitle">Technical Project Manager</span><span class="location">Midtown East</span></li>
-					<li><span class="date">June 21</span><span class="jobTitle">Frontend Developer</span><span class="location">Soho</span></li>
-					<li><span class="date">June 20</span><span class="jobTitle">Senior Python Developer / Co founder</span><span class="location">Flatiron</span></li>
+					<li><span class="date">June 22</span><a href="#!" class="jobTitle">Technical Project Manager</a><span class="location">Midtown East</span></li>
+					<li><span class="date">June 21</span><a href="#!" class="jobTitle">Frontend Developer</a><span class="location">Soho</span></li>
+					<li><span class="date">June 20</span><a href="#!" class="jobTitle">Senior Python Developer / Co founder</a><span class="location">Flatiron</span></li>
 				</ul>
 			</div><!-- end .contentWrapper -->
 		</section><!-- end .searchResults -->
