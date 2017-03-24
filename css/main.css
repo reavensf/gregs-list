@@ -1,0 +1,43 @@
+nav{
+	background-color: lightgray;
+	padding: 6px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
+nav p{
+	display: inline-block;
+	font-weight: bold;
+	margin: 0;
+}
+
+nav ul{
+	float: right;
+	margin: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 0 5px;
+}
+
+nav ul li a{
+	color: #551A8B;
+	text-decoration: none;
+}
+
+.navWrapper{
+	margin: 0 auto;
+	width: 1130px;
+}
+
+main{
+	padding-top: 50px;
+}
+
+.contentWrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
