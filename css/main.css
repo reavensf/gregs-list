@@ -1,5 +1,10 @@
+body{
+	font-family: 'Helvetica';
+}
+
 nav{
-	background-color: lightgray;
+	background-color: #efefef;
+	border-bottom: 1px solid #ddd;
 	padding: 6px 0;
 	position: fixed;
 	width: 100%;
@@ -30,7 +35,7 @@ nav ul li a{
 
 .navWrapper{
 	margin: 0 auto;
-	width: 1130px;
+	width: 70%;
 }
 
 main{
@@ -39,5 +44,92 @@ main{
 
 .contentWrapper{
 	margin: 0 auto;
-	width: 1000px;
+	width: 60%;
+}
+
+.searchForm{
+	margin-bottom: 20px;
+}
+
+label{
+	display: block;
+	font-size: 12px;
+}
+
+input[type='text']{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 5px;
+	width: 350px;
+}
+
+input[type='submit']{
+	background-color: #fff;
+	background-image: url(../images/magnifying-glass.png);
+	background-position: center center;
+	background-repeat: no-repeat;;
+	background-size: contain;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	bottom: -3px;
+	padding: 5px;
+	position: relative;
+	width: 30px;
+}
+
+.pagination{
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.pagination a, .pagination span{
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 7px 15px;
+}
+
+.pagination a{
+	color: #000;
+	text-decoration: none;
+	padding: 7px 15px;
+}
+
+.prev{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.next{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.pagination span{
+	border-left: 0;
+	border-right: 0;
+}
+
+.results{
+	padding-left: 0;
+	list-style: none;
+}
+
+.results li{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.results li span{
+	display: inline-block;
+}
+
+.jobTitle{
+	color: blue;
+	margin: 0 10px;
+}
+
+.date, .location{
+	color: #bbb;
 }
